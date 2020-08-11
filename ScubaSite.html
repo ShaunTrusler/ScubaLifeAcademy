@@ -1,0 +1,137 @@
+<!DOCTYPE=html>
+<html>
+<head>
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+	
+	body{
+		background-color: #196084;
+		color: #1092d4;
+	}
+	
+	.column {
+		float: left;
+		padding: 15px;
+		
+	}
+	
+	.main::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	
+	.header-logo{
+		position: absolute;
+		right: 8px;
+		top: 35px;
+		left: 0px;
+		background-color: #1092d4;
+		box-shadow: 0px 5px 10px #193645;
+		margin-left: 5%;
+		z-index: 1;
+		text-align: center;
+		border-radius: 10px;
+		color: white;
+		font-size: 25px;
+	}
+	
+	.navigation {
+		width: 25%;
+		text-align: right;
+		/*background-image: url("C:/Users/Shaun/Pictures/Background.png");*/
+		height: 100%;
+	}
+	
+	.content {
+		width: 75%;
+		text-align: left;
+		padding-left: 40px;
+		padding-right: 40px;
+		background-color: white;
+		height: 100%;
+		color: black;
+		border-radius: 0px 0px 25px 25px;
+		z-index: -1;
+	}
+	
+	.navigation ul{
+		list-style-type: none;
+		margin-left: 20%;
+		padding: 0;
+	}
+	
+	.navigation li {
+		padding: 8px;
+		margin-bottom: 15px;
+		background-color: white;
+		color: #196084;
+		border-radius: 5px;		
+		box-shadow: 5px 5px 10px #2e5467;
+		padding: 8px;			
+	}
+	
+	.navigation li:hover{
+		background-color: #1092d4;
+		cursor: pointer;
+	}
+	
+	.navigation a:link{
+		display: block;
+		text-decoration: none;		
+	}
+	
+	.header-bar{
+		border-radius:10px 10px 0px 0px;
+		margin-left: 25%;
+		width: 75%;
+		text-align: left;
+		padding-left: 40px;
+		padding-right: 20px;
+		background-color: white;
+		color: #1092d4;
+		position: static;
+		height: 150px;
+	}
+	
+	#email{
+		padding: 20%;
+	}
+	
+	#welcome{
+		background-color: #a7d5ec;
+		padding: 20px;
+		margin-top: 20px;
+		box-shadow: 5px 5px 10px #2e5467;
+		text-align: center;
+	}
+	
+	
+	</style>
+</head>
+<body>
+	
+	<div class="header-bar">
+		<span id="contact">Contact Us: +27 11 555 5567</span>
+		<span id="email">Email: Info@ScubaLifeAcademy.co.za</span>
+		<div class="header-logo">
+			<span id="name"><h1>ScubaLife Academy</h1></span>
+	</div>
+	</div>
+	<div class="main">
+		<div class="column navigation">
+			<ul>
+				<li id="home"><a href="#">Home</a></li>
+				<li id="dive"><a href="#">Start your Diving journey</a></li>
+				<li id="calendar"><a href="#">Scbua Calendar</a></li>
+				<li id="contact"><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="column content">
+			<p id="Welcome">Welcome to ScubaLife Academy</p>
+		</div>
+	</div>
+</body>
+</html>
