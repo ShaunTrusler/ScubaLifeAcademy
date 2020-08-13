@@ -90,11 +90,12 @@
 		color: #1092d4;
 		position: static;
 		height: 150px;
+		display: inline-block;
 	}
 	
 	#email{
 		text-align: right;
-		
+		padding-right: 60%;
 	}
 	
 	#welcome{
