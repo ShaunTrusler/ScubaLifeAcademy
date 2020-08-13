@@ -81,6 +81,7 @@
 	
 	.header-bar{
 		border-radius:10px 10px 0px 0px;
+		border-color: red;
 		margin-left: 25%;
 		width: 75%;
 		padding-left: 40px;
