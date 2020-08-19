@@ -102,13 +102,14 @@
 	
 	#course{
 		background-color: white;
+		position: absolute;
 		padding: 20px;
 		margin-top: 20px;
-		width: 5%;
-		Height: 50px;
+		width: 50px;
+		Height: 250px;
 		box-shadow: 5px 5px 10px #2e5467;
 		text-align: center;
-		display: inline-block;
+		display: inline;
 	}
 		
 	.slideshow-container{
