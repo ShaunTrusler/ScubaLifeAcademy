@@ -232,7 +232,7 @@
 			<div class="course">
 				<img src="images/DSD.jpg" width=100% height="100">
 				<p>PADI Discover Scuba Diving</p>
-				<button id="DSD" class="more-info-button" onclick="document.getElementById("DSD-Modal").modal.style.display = "block";">More Info</button>
+				<button id="DSD" class="more-info-button" onclick="showModal("DSD","DSD-Modal")">More Info</button>
 			</div>
 			<div class="course">
 				<img src="images/OW.jpg" width=100% height="100">
@@ -263,7 +263,7 @@
 
 	<div id="AOW-Modal" class="modal">
  		<div class="modal-content">
-    			<span class="close" onclick="document.getElementsByClassName("close")[0].modal.style.display = "none";">&times;</span>
+    			<span class="close">&times;</span>
     			<p>A quick and easy introduction into what it takes to explore the underwater world. Although this is not a scuba certification course, you&#039;ll learn all the steps it takes to be a PADI certified diver.</p>
 		</div>
 	</div>
@@ -284,9 +284,14 @@
 		  setTimeout(showSlides, 8000); // Change image every 2 seconds
 		}
 		
+		function showModal(btnID,modalID) {
+			document.getElementsById(btnID).modalID.style.display = "block";
+		}
 		
 		// Get the modal
 		//var DSD_modal = document.getElementById("DSD-Modal");
+		//var OW_modal = document.getElementById("OW-Modal");
+		//var OW_modal = document.getElementById("OW-Modal");
 
 		// Get the button that opens the modal
 		//var btn = document.getElementById("DSD");
