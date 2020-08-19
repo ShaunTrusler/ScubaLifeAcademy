@@ -232,7 +232,7 @@
 			<div class="course">
 				<img src="images/DSD.jpg" width=100% height="100">
 				<p>PADI Discover Scuba Diving</p>
-				<button id="DSD" class="more-info-button">More Info</button>
+				<button id="DSD" class="more-info-button" onclick="document.getElementById("DSD-Modal").modal.style.display = "block";">More Info</button>
 			</div>
 			<div class="course">
 				<img src="images/OW.jpg" width=100% height="100">
@@ -247,15 +247,27 @@
 		</div>
 	</div>
 	
-	<!-- The Modal -->
-	<div id="myModal" class="modal">
-		
-  	<!-- Modal content -->
- 	<div class="modal-content">
-    	<span class="close">&times;</span>
-    	<p>A quick and easy introduction into what it takes to explore the underwater world. Although this is not a scuba certification course, you&#039;ll learn all the steps it takes to be a PADI certified diver.</p>
- 	</div>
-		
+	<div id="DSD-Modal" class="modal">		
+ 		<div class="modal-content">
+    			<span class="close">&times;</span>
+    				<p>A quick and easy introduction into what it takes to explore the underwater world. Although this is not a scuba certification course, you&#039;ll learn all the steps it takes to be a PADI certified diver.</p>
+ 		</div>
+	</div>
+
+	<div id="OW-Modal" class="modal">
+ 		<div class="modal-content">
+    			<span class="close">&times;</span>
+    			<p>A quick and easy introduction into what it takes to explore the underwater world. Although this is not a scuba certification course, you&#039;ll learn all the steps it takes to be a PADI certified diver.</p>
+		</div>
+	</div>	
+
+	<div id="AOW-Modal" class="modal">
+ 		<div class="modal-content">
+    			<span class="close" onclick="document.getElementsByClassName("close")[0].modal.style.display = "none";">&times;</span>
+    			<p>A quick and easy introduction into what it takes to explore the underwater world. Although this is not a scuba certification course, you&#039;ll learn all the steps it takes to be a PADI certified diver.</p>
+		</div>
+	</div>
+
 	<script>
 		var slideIndex = 0;
 		showSlides();
@@ -272,24 +284,25 @@
 		  setTimeout(showSlides, 8000); // Change image every 2 seconds
 		}
 		
+		
 		// Get the modal
-		var modal = document.getElementById("myModal");
+		//var DSD_modal = document.getElementById("DSD-Modal");
 
 		// Get the button that opens the modal
-		var btn = document.getElementById("DSD");
+		//var btn = document.getElementById("DSD");
 
 		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
+		//var span = document.getElementsByClassName("close")[0];
 
 		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
+		//btn.onclick = function() {
+		//  modal.style.display = "block";
+		//}
 
 		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
+		//span.onclick = function() {
+		//  modal.style.display = "none";
+		//}
 
 		// When the user clicks anywhere outside of the modal, close it
 		window.onclick = function(event) {
