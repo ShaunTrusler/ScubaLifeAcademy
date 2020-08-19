@@ -109,7 +109,7 @@
 		Height: 250px;
 		box-shadow: 5px 5px 10px #2e5467;
 		text-align: center;
-		display: inline;
+		display: inline-block;
 	}
 		
 	.slideshow-container{
