@@ -145,6 +145,18 @@
 		display: inline-block;
 	}
 	
+	.advert{
+		background-color: white;
+		/*padding: 20px;*/
+		margin-top: 20px;
+		margin-left: 50px;
+		width: 500px;
+		Height: 500px;
+		box-shadow: 5px 5px 10px #2e5467;
+		text-align: center;
+		display: inline-block;
+	}
+	
 	.more-info-button{
 		background-color: #196084; 
 		border: none;
