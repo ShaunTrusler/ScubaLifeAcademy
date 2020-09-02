@@ -140,6 +140,15 @@
 		text-align: center;
 		width: 100%;
 	}
+
+	#Galery_Bar{
+		background-color: white;
+		padding: 20px;
+		margin-top: 35px;
+		/*box-shadow: 5px 5px 10px #2e5467;*/
+		text-align: center;
+		width: 100%;
+	}
 	
 	.course{
 		background-color: white;
