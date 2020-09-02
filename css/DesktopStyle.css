@@ -116,6 +116,14 @@
 		text-align: center;
 	}
 
+	#Galery{
+		background-color: #a7d5ec;
+		padding: 20px;
+		margin-top: 35px;
+		box-shadow: 5px 5px 10px #2e5467;
+		text-align: center;
+	}
+
 	#Calendar{
 		background-color: white;
 		padding: 20px;
