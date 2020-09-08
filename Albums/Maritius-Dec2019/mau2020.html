@@ -31,7 +31,7 @@
 <body>
     <div class="album">
         <div class="cursor thumbnail">
-          <img src="G0032119.JPG" style="width:100%">
+          <img src="G0032119.JPG" style="width:100%" onclick="Show_Image(1)">
         </div>
         <div class="cursor thumbnail">
           <img src="G0032130.JPG" style="width:100%">
@@ -204,6 +204,17 @@
         <div class="cursor thumbnail">
           <img src="GOPR2516.JPG" style="width:100%">
         </div>
-    </div>
+    </div>						    
+						    
+<div id="Album_modal" class="modal">
+ 		<div class="modal-content">
+    			<span onclick="hideModal('Album_modal')" class="close">&times;</span>
+			<p><h1>MAUrRITIUS - December 2020</h1></p>
+			<div class="album_slideshow">
+				<img src="G0032119.JPG" style="width:75%">						    
+			</div>
+			</br></br>			    			
+		</div>
+	</div>							   
 </body>
 </html>
