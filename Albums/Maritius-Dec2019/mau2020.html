@@ -31,7 +31,7 @@
 <body>
     <div class="album">
         <div class="cursor thumbnail">
-          <img src="G0032119.JPG" style="width:100%" onclick="Show_Image(1)">
+          <img src="G0032119.JPG" style="width:100%" onclick="Show_Image('Album_modal')">
         </div>
         <div class="cursor thumbnail">
           <img src="G0032130.JPG" style="width:100%">
@@ -215,6 +215,17 @@
 			</div>
 			</br></br>			    			
 		</div>
-	</div>							   
+	</div>
+<script>
+	//show modal
+		function show_Images(id){
+			document.getElementById(id).style.display = "block";
+		}
+		
+		//hide modal
+		function hideModal(id){
+			document.getElementById(id).style.display = "none";
+		}									 
+</script>									 
 </body>
 </html>
