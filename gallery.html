@@ -4,7 +4,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<link href='css/DesktopStyle.css' rel='stylesheet'>
 <style>
-	.modal_slides {
+	.modal_slides{
 	  display: none; /* Hidden by default */
 	  position: fixed; /* Stay in place */
 	  z-index: 1; /* Sit on top */
@@ -19,7 +19,7 @@
 	}
 
 	/* Modal Content/Box */
-	.modal_slides-content {
+	.modal_slides-content{
 	  background-color: #fefefe;
 	  margin: 2% auto; /* 15% from the top and centered */
 	  padding: 20px;
@@ -65,15 +65,17 @@
 			<p font-size="45"><b>Our Diving Courses</b></p>
 			<div class="advert" style="height:10%">					
 					<p><b>MAURITIUS December 2019</b></p>					
-					<button class="more-info-button" onclick="showModal('Gallery_modal')>View Gallery</button>
+					<div class="more-info-button" onclick="showModal('Gallery_modal')>View Gallery</div>
 				</div>	
       			</div>
-		<div id="Gallery-modal" class="modal_slides">		
-			<div class="modal_slides-content">
-				<span onclick="hideModal('Gallery-modal')" class="close">&times;</span>
-				<p><h1>PADI DISCOVER SCUBA DIVING</h1></p>			
+									       
+			<div id="Gallery-modal" class="modal_slides">		
+				<div class="modal_slides-content">
+					<span onclick="hideModal('Gallery-modal')" class="close">&times;</span>
+					<p><h1>PADI DISCOVER SCUBA DIVING</h1></p>			
+				</div>
 			</div>
-		</div>
+												
 			<div class="content_info">
 			<p font-size="45"><b>Our Diving Vacations</b></p>
 			</div>
