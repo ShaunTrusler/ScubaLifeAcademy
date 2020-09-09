@@ -62,7 +62,7 @@
 <body>
     	<div class="album">
 		<div class="cursor thumbnail">
-		  <img src="G0032119.JPG" style="width:100%" onclick="showSlides(0)">
+		  <img src="G0032119.JPG" style="width:100%" onclick="Show_Image('Album_modal');">
 		</div>
 		<div class="cursor thumbnail">
 		  <img src="G0032130.JPG" style="width:100%" onclick="showSlides(1)">
@@ -260,7 +260,7 @@
 		function showSlides(number){
 		  	var slides = document.GetElementsByClassName("album_slideshow");
 		   	slides[number].style.display = "block";
-			Show_Image('Album_modal');
+			
 	  	}
 </script>									 
 </body>
