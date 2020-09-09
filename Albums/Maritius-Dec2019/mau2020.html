@@ -30,6 +30,20 @@
 	.cursor{
 		cursor: pointer; 
 	}
+	
+	.modal_image {
+		  display: none; /* Hidden by default */
+		  position: fixed; /* Stay in place */
+		  z-index: 1; /* Sit on top */
+		  left: 0;
+		  top: 0;
+		  padding-top: 10px;
+		  width: 100%; /* Full width */
+		  height: 100%; /* Full height */
+		  overflow: auto; /* Enable scroll if needed */
+		  background-color: rgb(0,0,0); /* Fallback color */
+		  background-color: rgba(0,0,0,0); /* Black w/ opacity */
+	}
 	  
 	.modal_image-content {
 		  background-color: #fefefe;
@@ -37,7 +51,7 @@
 		  padding: 20px;
 		  border: 1px solid #888;
 		  width: 75%; /* Could be more or less, depending on screen size */
-		 background-color: rgba(0,0,0,0.7);
+		 background-color: rgba(0,0,0,0.5);
 	}
 	  
   </style>
@@ -220,7 +234,7 @@
 		</div>
     	</div>						    
 						    
-	<div id="Album_modal" class="modal">
+	<div id="Album_modal" class="modal_image">
  		<div class="modal_image-content" style="text-align: center">
     			<span onclick="hideModal('Album_modal')" class="close">&times;</span>			
 			<div class="album_slideshow">
