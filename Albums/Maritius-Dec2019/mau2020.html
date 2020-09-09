@@ -31,6 +31,15 @@
 		cursor: pointer; 
 	}
 	  
+	.modal_image-content {
+		  background-color: #fefefe;
+		  margin: 2% auto; /* 15% from the top and centered */
+		  padding: 20px;
+		  border: 1px solid #888;
+		  width: 75%; /* Could be more or less, depending on screen size */
+		 background-color: rgba(0,0,0,0.7);
+	}
+	  
   </style>
 </head>
 <body>
@@ -212,9 +221,8 @@
     	</div>						    
 						    
 	<div id="Album_modal" class="modal">
- 		<div class="modal-content" style="text-align: center">
-    			<span onclick="hideModal('Album_modal')" class="close">&times;</span>
-			<p><h1>MAURRITIUS - December 2020</h1></p>
+ 		<div class="modal_image-content" style="text-align: center">
+    			<span onclick="hideModal('Album_modal')" class="close">&times;</span>			
 			<div class="album_slideshow">
 				<img src="G0032119.JPG" style="width:75%">						    
 			</div>
