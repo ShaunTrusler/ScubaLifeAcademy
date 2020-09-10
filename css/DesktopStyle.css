@@ -172,7 +172,15 @@
 		display: inline-block;
 	}
 	
-	.advert trip course:hover{
+	.advert:hover{
+		border: 1px solid black;
+	}
+
+	.trip:hover{
+		border: 1px solid black;
+	}
+
+	.course:hover{
 		border: 1px solid black;
 	}
 	
