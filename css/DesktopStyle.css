@@ -35,8 +35,7 @@
 		text-align: center;
 		border-radius: 10px;
 		color: white;
-		font-size: 25px;
-		object-fit: contain;
+		font-size: 25px;	
 	}
 	
 	.navigation {
@@ -157,7 +156,7 @@
 		margin-top: 20px;
 		margin-left: 35px;
 		width: 200px;
-		height: 200px;
+		height: 250px;
 		box-shadow: 5px 5px 10px #2e5467;
 		text-align: center;
 		display: inline-block;
@@ -169,7 +168,7 @@
 		margin-top: 20px;
 		margin-left: 50px;
 		width: 300px;
-		Height: 300px;
+		Height: 400px;
 		box-shadow: 5px 5px 10px #2e5467;
 		text-align: center;
 		display: inline-block;
@@ -194,6 +193,7 @@
 		height: 150px;
 		position: relative;
 		margin-left: 5%;
+		object-fit: contain;
 	}
 	
 	.slideshow{
