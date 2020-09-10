@@ -28,7 +28,7 @@
 		top: 100px;
 		left: 0px;
 		padding-top: 50px;
-		background-color: white;
+		background-color: #0090ff;
 		box-shadow: 0px 5px 10px #193645;
 		margin-left: 5%;
 		z-index: 1;
@@ -49,7 +49,7 @@
 		text-align: left;
 		padding-left: 40px;
 		padding-right: 40px;
-		background-color: 0090ff;
+		background-color: white;
 		color: black;
 		border-radius: 0px 0px 25px 25px;
 		z-index: -1;
@@ -91,7 +91,7 @@
 		margin-left: 25%;
 		width: 75%;
 		padding-left: 40px;
-		background-color: 0090ff;
+		background-color: white;
 		color: #1092d4;
 		position: static;
 		height: 380px;
@@ -108,7 +108,7 @@
 	}
 	
 	#ConEd{
-		background-color: #0090ff;
+		background-color: #a7d5ec;
 		padding: 20px;
 		margin-top: 35px;
 		box-shadow: 5px 5px 10px #2e5467;
@@ -116,7 +116,7 @@
 	}
 
 	.content_info{	
-		background-color: #0090ff;
+		background-color: white;
 		padding: 20px;
 		margin-top: 35px;
 		/*box-shadow: 5px 5px 10px #2e5467;*/
@@ -124,7 +124,7 @@
 	}
 
 	#Calendar{
-		background-color: #0090ff;
+		background-color: white;
 		padding: 20px;
 		margin-top: 35px;		
 		text-align: center;
@@ -132,7 +132,7 @@
 	}
 
 	#Galery_Bar{
-		background-color: #0090ff;
+		background-color: white;
 		padding: 20px;
 		margin-top: 35px;
 		text-align: center;
@@ -140,7 +140,7 @@
 	}
 	
 	.course{
-		background-color: a7d5ec;
+		background-color: #0090ff;
 		margin-top: 20px;
 		margin-left: 50px;
 		width: 300px;
@@ -151,7 +151,7 @@
 	}
 
 	.trip{
-		background-color: a7d5ec;
+		background-color: #0090ff;
 		margin-top: 20px;
 		margin-left: 35px;
 		width: 300px;
@@ -162,7 +162,7 @@
 	}
 	
 	.advert{
-		background-color: a7d5ec;
+		background-color: #0090ff;
 		margin-top: 20px;
 		margin-left: 50px;
 		width: 400px;
@@ -170,6 +170,10 @@
 		box-shadow: 5px 5px 10px #2e5467;
 		text-align: center;
 		display: inline-block;
+	}
+	
+	.advert trip course:hover{
+		border: 1px solid black;
 	}
 	
 	.more-info-button{
