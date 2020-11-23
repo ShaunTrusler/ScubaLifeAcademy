@@ -5,78 +5,37 @@
 	<link href='css/DesktopStyle.css' rel='stylesheet'>
 </head>
 <body>
+	<section>
+		<div class='content-page top'>
+			<div id='Email' class='left'>Email: <a id='Email-Link' href='mailto:Info@ScubaLifeSA.co.za'>Info@ScubaLifeSA.co.za</a></div>
+			<div id='Contact' class='right'>Contact Us: 071 892 4324</div>
+		</div>
+		<div class='content-page header'>
+			<div class='bar'>
+				<img id='Logo' src='images/Logov2.jpg'>
+				<div >
+					<ul class='navigation'>
+						<li><a class='nav-links' href='Index.html'>Home</a></li>
+						<li><a class='nav-links' href='Academy.html'>Academy</a></li>
+						<li><a class='nav-links' href='Travel.html'>Lifestyle</a></li>
+						<li><a class='nav-links' href='Calendar.html'>Calendar</a></li>
+						<li><a class='nav-links' href='Gallery.html'>Gallery</a></li>
+						<li><a class='nav-links' href='Contact.html'>Contact Us</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>					
+	</section>
+	<section>
+		<div class='content-page main'>
+			 
+		</div>
+	</section>
+	<section>
+		<div class='content-page footer'>
+		 
+		</div>
+	</section>
 	
-	<div class="header-bar">		
-		<p id="name"><h1>ScubaLife SA</h1></p>
-		<div class="header-logo">			
-			<div class="slideshow-container">
-				<div class="slideshow fade">
-					<a href="courses.html"><img src="images/Learning.png" width=100% height="200"></a>
-				</div>
-				<div class="slideshow fade">
-					<a href="#"><img src="images/Travel.jpg" width=100% height="200"></a>
-				</div>
-				<div class="slideshow fade">
-					<a href="#"><img src="images/Contact.jpg" width=100% height="200"></a>
-				</div>
-				<div class="slideshow fade">
-					<a href="#"><img src="images/PADI.jpg" width=100% height="200"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="main">
-		<div class="column navigation">
-			<ul>
-				<li id="home"><a href="index.html">Home</a></li>
-				<li id="dive"><a href="courses.html">Start your Diving journey</a></li>
-				<li id="scuba_calendar"><a href="scubacalendar.html">Scuba Calendar</a></li>
-				<li id="gallery"><a href="gallery.html">Gallery</a></li>
-				<li id="contact"><a href="#">Contact Us</a></li>
-			</ul>
-		</div>
-		<div class="column content">
-			<p id="Welcome">Welcome to ScubaLife SA, the Life Style you did not know you needed</p>
-			<div class="content_info">
-			<p font-size="45"><b>What we have gotten up to lately</b></p>
-				<div class="trip" style="object-fit:cover;">
-					<img src="Albums/Aliwal-Aug2020/WhatsApp%20Image%202020-08-22%20at%2016.24.20.jpeg" width=100% height="150">
-					<p><b>ALIWAL SHOAL July 2020</b></p></br>
-					<a class="more-info-button" href="gallery.html">View Gallery</a>
-				</div>
-			</div>
-			<p id="Galery_Bar"><b>Please see our online Calendar of all our upcoming events and courses</b></p>
-			<div class="content_info">
-				<div class="advert">
-					<img src="images/OW.jpg" width=100% height="150"></br></br>
-					<p>Our next course is:</br><b>PADI OPEN WATER</b></p>
-					<p>31 Aug 2020</p></br></br></br>
-					<a id="OW" class="more-info-button" href="courses.html">View Courses</a>
-				</div>
-				<div class="advert">
-					<img src="images/Travel.jpg" width=100% height="150"></br></br>
-					<p>Our next Vacation is:</br><b>SODWANA BAY</b></p>		
-					<p>16 Sept 2020</p></br></br></br>
-					<a id="OW" class="more-info-button" href="#">View Trips</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script>
-		var slideIndex = 0;
-		showSlides();
-
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("slideshow");		
-		  for (i = 0; i < slides.length; i++) {
-		    slides[i].style.display = "none";  
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1} 
-		  slides[slideIndex-1].style.display = "block";  
-		  setTimeout(showSlides, 8000); // Change image every 2 seconds
-		}
-	</script>	
 </body>
 </html>
