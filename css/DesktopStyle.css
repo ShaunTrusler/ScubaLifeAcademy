@@ -1,270 +1,95 @@
-*{
-		box-sizing: border-box;
-	}
-	
-	body{
-		background-color: #196084;
-		color: #1092d4;
-		font-size: 16px;
-		font-family: Montserrat;
-	}
-	
-	.column {
-		float: left;
-		padding: 15px;
-		
-	}
-	
-	.main::after {
-		content: "";
-		clear: both;
-		display: table;
-	}
-	
-	.header-logo{
-		position: absolute;
-		height: 300px;
-		right: 8px;
-		top: 100px;
-		left: 0px;
-		padding-top: 50px;
-		background-color: #0090ff;
-		box-shadow: 0px 5px 10px #193645;
-		margin-left: 5%;
-		z-index: 1;
-		text-align: center;
-		border-radius: 10px;
-		font-size: 25px;	
-	}
-	
-	.navigation {
-		width: 25%;
-		text-align: right;
-		/*background-image: url("C:/Users/Shaun/Pictures/Background.png");*/
-		height: 100%;
-	}
-	
-	.content {
-		width: 75%;
-		text-align: left;
-		padding-left: 40px;
-		padding-right: 40px;
-		background-color: white;
-		color: black;
-		border-radius: 0px 0px 25px 25px;
-		z-index: -1;
-	}
-	
-	.navigation ul{
-		list-style-type: none;
-		margin-left: 20%;
-		padding: 0;
-	}
-	
-	.navigation li {
-		padding: 8px;
-		margin-bottom: 15px;
-		background-color: white;
-		color: #196084;
-		border-radius: 5px;		
-		box-shadow: 5px 5px 10px #2e5467;
-		padding: 8px;
-		font-weight: bold;
-	}
-	
-	.navigation li:hover{
-		background-color: #1092d4;
-		cursor: pointer;
-	}
-	
-	.navigation a:link{
-		display: block;
-		text-decoration: none;		
-	}
-	
-	h1{
-		font-size: 40px;
-	}
-		
-	.header-bar{
-		border-radius:10px 10px 0px 0px;
-		margin-left: 25%;
-		width: 75%;
-		padding-left: 40px;
-		background-color: white;
-		color: #1092d4;
-		position: static;
-		height: 380px;
-		display: inline-block;
-		text-align: center;
-	}
-	
-	#welcome{
-		background-color: #a7d5ec;
-		padding: 20px;
-		margin-top: 20px;
-		box-shadow: 5px 5px 10px #2e5467;
-		text-align: center;
-	}
-	
-	#ConEd{
-		background-color: #a7d5ec;
-		padding: 20px;
-		margin-top: 35px;
-		box-shadow: 5px 5px 10px #2e5467;
-		text-align: center;
-	}
+body {
+	background-color: #196084
+}
 
-	.content_info{	
-		background-color: white;
-		padding: 20px;
-		margin-top: 35px;
-		/*box-shadow: 5px 5px 10px #2e5467;*/
-		text-align: center;		
-	}
+.content-page{
+	text-align: center;
+	background-color: white;	
+	margin-left: 10%;
+	width: 80%;	
+}
 
-	#Calendar{
-		background-color: white;
-		padding: 20px;
-		margin-top: 35px;		
-		text-align: center;
-		width: 100%;
-	}
+.top{
+	display: inline-block;
+	margin-top: 15px;	
+	border-radius: 10px 10px 0px 0px;
+}
 
-	#Galery_Bar{
-		background-color: white;
-		padding: 20px;
-		margin-top: 35px;
-		text-align: center;
-		width: 100%;
-	}
-	
-	.course{
-		background-color: #ededed;
-		margin-top: 20px;
-		margin-left: 50px;
-		width: 300px;
-		height: 300px;
-		box-shadow: 5px 5px 10px #2e5467;
-		text-align: center;
-		display: inline-block;
-	}
+.main{
+	display: inline-block;
+}
 
-	.trip{
-		background-color: #ededed;
-		margin-top: 20px;
-		margin-left: 35px;
-		width: 300px;
-		height: 300px;
-		box-shadow: 5px 5px 10px #2e5467;
-		text-align: center;
-		display: inline-block;
-	}
-	
-	.advert{
-		background-color: #ededed;
-		margin-top: 20px;
-		margin-left: 50px;
-		width: 400px;
-		Height: 400px;
-		box-shadow: 5px 5px 10px #2e5467;
-		text-align: center;
-		display: inline-block;
-	}
-	
-	.advert:hover{
-		border: 1px solid black;
-	}
+.footer{
+	display: inline-block;
+	border-radius: 0px 0px 10px 10px;
+}
 
-	.trip:hover{
-		border: 1px solid black;
-	}
+.right{
+	float: right;
+	text-align: right;
+	padding-right: 10%;
+}
 
-	.course:hover{
-		border: 1px solid black;
-	}
-	
-	.more-info-button{
-		background-color: #196084; 
-		border: none;
-		color: white;
-		padding: 15px 32px;
-		text-align: center;
-		text-decoration: none;
-		font-size: 16px;
-	}
-	
-	.more-info-button:hover{
-		cursor: pointer;
-	}
-		
-	.slideshow-container{
-		width: 90%;
-		height: 150px;
-		position: relative;
-		margin-left: 5%;
-	}
-	
-	.slideshow{
-		height: 150px;
-		display: none;
-	}
-	
-	.fade {
-  		-webkit-animation-name: fade;
-		-webkit-animation-duration: 1.5s;
-		animation-name: fade;
-		animation-duration: 1.5s;
-	}
+.left{
+	float: left;
+	text-align: left;
+	padding-left: 10%;
+}
 
-	@-webkit-keyframes fade {
-	  	from {opacity: .4}
-	  	to {opacity: 1}
-	}
+.header{
+	display: inline-block;
+	background-color: #37a2c6;
+	width: 90%;
+	margin-left: 5%;
+	height: 250px;
+	border-radius: 10px;	
+}
 
-	@keyframes fade {
-	  	from {opacity: .4}
-	  	to {opacity: 1}
-	}
-	h1{
-		text-align: center;
-	}
-	
-	/* The Modal (background) */
-	.modal {
-	  display: none; /* Hidden by default */
-	  position: fixed; /* Stay in place */
-	  z-index: 1; /* Sit on top */
-	  left: 0;
-	  top: 0;
-	  padding-top: 10px;
-	  width: 100%; /* Full width */
-	  height: 100%; /* Full height */
-	  overflow: auto; /* Enable scroll if needed */
-	  background-color: rgb(0,0,0); /* Fallback color */
-	  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
-	}
+.navigation{	
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color:  white;
+	height: 200px;
+}
 
-	/* Modal Content/Box */
-	.modal-content {
-	  background-color: #fefefe;
-	  margin: 2% auto; /* 15% from the top and centered */
-	  padding: 20px;
-	  border: 1px solid #888;
-	  width: 65%; /* Could be more or less, depending on screen size */
-	}
+.navigation ul{
+	margin-top: 0px;
+	list-style-type: none;
+}
 
-	/* The Close Button */
-	.close {
-	  color: #aaa;
-	  float: right;
-	  font-size: 55px;
-	  font-weight: bold;
-	}
+.navigation li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	width: 100px;
+}
 
-	.close:hover,
-	.close:focus {
-	  color: black;
-	  text-decoration: none;
-	  cursor: pointer;
-	}
+.nav-links{
+	text-decoration: none;
+	color: black;
+}
+
+.navigation li:hover{
+	background-color: #37a2c6;
+}
+
+#Email{
+	display: inline;	
+}
+
+#Email-Link{
+	text-decoration: none;
+	color: #37a2c6;
+}
+
+#Contact{
+	display: inline;
+}
+
+#Logo{
+	width: 250px;
+	padding: 20px;
+	margin-right: 100px;
+}
